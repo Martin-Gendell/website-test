@@ -2,7 +2,8 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Martin Gendell's Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
   <style>
     html, body {
       margin: 0;
@@ -11,18 +12,22 @@
       width: 100%;
       box-sizing: border-box;
       font-family: Garamond, serif;
+      background-color: #f5f5f5;
     }
 
     .doc-content {
-      max-width: none;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
     }
 
     iframe {
       width: 100%;
-      height: 100vh;
+      height: 100%;
       border: none;
     }
   </style>
